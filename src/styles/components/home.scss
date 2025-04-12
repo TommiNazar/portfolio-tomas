@@ -1,0 +1,108 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    &__content {
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      padding: 2rem;
+      gap: 3rem;
+      
+      @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    
+    &__image-container {
+      flex-shrink: 0;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid var(--primary-color);
+      box-shadow: var(--shadow);
+      
+      @media (max-width: 768px) {
+        width: 200px;
+        height: 200px;
+      }
+    }
+    
+    &__image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    &__text {
+      flex-grow: 1;
+    }
+    
+    &__title {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-color);
+      
+      .highlight {
+        color: var(--primary-color);
+      }
+      
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+    
+    &__subtitle {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--subtitle-color);
+      font-weight: 400;
+      
+      @media (max-width: 768px) {
+        font-size: 1.2rem;
+      }
+    }
+    
+    &__description {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      line-height: 1.7;
+      color: var(--subtitle-color);
+      
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+    
+    &__buttons {
+      display: flex;
+      gap: 1rem;
+      
+      @media (max-width: 480px) {
+        flex-direction: column;
+      }
+    }
+    
+    &__social {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1.5rem;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      
+      a {
+        font-size: 1.5rem;
+        color: var(--subtitle-color);
+        transition: var(--transition);
+        
+        &:hover {
+          color: var(--primary-color);
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }

@@ -1,0 +1,73 @@
+@import './components/navbar';
+@import './components/home';
+@import './components/about';
+
+:root {
+    // Light theme
+    --bg-color: #f8f9fa;
+    --card-color: #ffffff;
+    --primary-color: #4361ee;
+    --secondary-color: #3a0ca3;
+    --text-color: #212529;
+    --subtitle-color: #495057;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    // Transition
+    --transition: all 0.3s ease;
+  }
+  
+  // Dark theme
+  [data-theme="dark"] {
+    --bg-color: #121212;
+    --card-color: #1e1e1e;
+    --primary-color: #4895ef;
+    --secondary-color: #4361ee;
+    --text-color: #e9ecef;
+    --subtitle-color: #adb5bd;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  // Reset and base styles
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: var(--transition);
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  // Utility classes
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background-color: var(--secondary-color);
+    }
+  }
