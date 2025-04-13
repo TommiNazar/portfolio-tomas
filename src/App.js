@@ -11,7 +11,6 @@ const App = () => {
   const [theme, setTheme] = useState('light');
   const [activeSection, setActiveSection] = useState('home');
 
-  // Check for saved theme preference
   useEffect(() => {
     const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
     setTheme(savedTheme);
@@ -27,23 +26,17 @@ const App = () => {
 
   const renderSection = () => {
     switch (activeSection) {
-      case 'home':
-        return <Home />;
-      case 'about':
-        return <About />;
-      case 'projects':
-        return <Projects />;
-      case 'skills':
-        return <Skills />;
-      case 'contact':
-        return <Contact />;
-      default:
-        return <Home />;
+      case 'home': return <Home />;
+      case 'about': return <About />;
+      case 'projects': return <Projects />;
+      case 'skills': return <Skills />;
+      case 'contact': return <Contact />;
+      default: return <Home />;
     }
   };
 
   return (
-    <div className="app">
+    <div className="app-container">
       <Navbar 
         activeSection={activeSection}
         setActiveSection={setActiveSection}

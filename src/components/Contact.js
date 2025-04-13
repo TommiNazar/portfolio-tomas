@@ -18,7 +18,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí iría la lógica para enviar el formulario
+    // lógica para enviar el formulario
     console.log('Formulario enviado:', formData);
     alert('Mensaje enviado con éxito!');
     setFormData({
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="contact__text">
               <h4>Email</h4>
-              <p>tomasnazar@example.com</p>
+              <p>tomminazar@gmail.com</p>
             </div>
           </div>
           
@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
             <div className="contact__text">
               <h4>Teléfono</h4>
-              <p>+54 351 123 4567</p>
+              <p>+54 351 5942866</p>
             </div>
           </div>
         </div>
