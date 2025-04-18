@@ -6,7 +6,7 @@ const Navbar = ({ activeSection, setActiveSection, theme, toggleTheme }) => {
   const navItems = [
     { id: 'home', icon: <FaHome />, label: 'Inicio' },
     { id: 'about', icon: <FaUser />, label: 'Sobre mí' },
-    { id: 'skills', icon: <MdComputer />, label: 'Habilidades' },
+  
     { id: 'projects', icon: <FaProjectDiagram />, label: 'Proyectos' },
     { id: 'contact', icon: <FaEnvelope />, label: 'Contacto' },
   ];

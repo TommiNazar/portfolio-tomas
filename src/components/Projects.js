@@ -1,34 +1,69 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import diroma from '../assets/diroma.png'
+import appClima from '../assets/appClima.png'
+import magiaInteractiva from '../assets/magiaInteractiva.png'
+import jure from '../assets/jureArquitectura.png'
+import calculadora from '../assets/calculadora.png'
+import porfolio from '../assets/porfolio.png'
 
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "Plataforma completa de comercio electrónico con carrito de compras, autenticación de usuarios y pasarela de pago integrada.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/tomasnazar/ecommerce",
-    demo: "https://ecommerce-tomas.vercel.app",
-    image: "ecommerce.jpg"
+    title: "E-commerce-Diroma",
+    description: "Plataforma de comercio electrónico con carrito de compras, con formulario conectado al mail donde le llegan los pedidios realizados por los clientes, con diseño resposive",
+    technologies: ["React", "Node.js", "Sass"],
+    github: "https://github.com/TommiNazar/diroma-ecommerce",
+    demo: "https://diroma-ecommerce.vercel.app/",
+    image: diroma
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Aplicación para gestión de tareas con arrastrar y soltar, categorías y recordatorios.",
-    technologies: ["React", "Firebase", "Material UI"],
-    github: "https://github.com/tomasnazar/task-manager",
-    demo: "https://taskmanager-tomas.vercel.app",
-    image: "taskmanager.jpg"
+    title: "App-clima-react",
+    description: "Aplicación Weather Dashboard, Panel de control meteorológico que muestra pronósticos actuales y futuros con datos de API, con diseño resposive.",
+    technologies: ["React", "API"],
+    github: "https://github.com/TommiNazar/app-clima-react",
+    demo: "https://app-clima-react-opal.vercel.app/",
+    image: appClima
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Panel de control meteorológico que muestra pronósticos actuales y futuros con datos de API.",
-    technologies: ["JavaScript", "OpenWeather API", "Chart.js"],
-    github: "https://github.com/tomasnazar/weather-app",
-    demo: "https://weather-tomas.vercel.app",
-    image: "weather.jpg"
-  }
+    title: "magia-interactiva-js",
+    description: "Pagina interactiva que le realiza al usuario trucos de magiaI.",
+    technologies: ["JavaScript", "Css", "HTML"],
+    github: "https://github.com/TommiNazar/magia-interactiva-js",
+    demo: "https://magia-interactiva-js.vercel.app/",
+    image: magiaInteractiva
+  },
+
+  {
+    id: 4,
+    title: "jureArquitectura",
+    description: "Pagina informativa del estudio de arquitectura Jure, con diseño resposive.",
+    technologies: ["HTML", "Css", "Sass", "Bootstrap"],
+    github: "https://github.com/TommiNazar/jureArquitectura",
+    demo: "https://jure-arquitectura.vercel.app/",
+    image: jure
+  },
+  {
+    id: 5,
+    title: "calculadoraReact",
+    description: "Calculadora realizada con React.",
+    technologies: ["React", "Css"],
+    github: "https://github.com/TommiNazar/calculadoraReact",
+    demo: "https://calculadora-react-seven-rho.vercel.app/",
+    image: calculadora
+  },
+  {
+    id: 6,
+    title: "este porfolio",
+    description: "Porfolio realizado con React y Sass con diseño resposive.",
+    technologies: ["React", "Css", "Sass"],
+    github: "https://github.com/TommiNazar/portfolio-tomas",
+    demo: "https://portfolio-tomas-nine.vercel.app/",
+    image: porfolio
+  },
+
 ];
 
 const Projects = () => {
@@ -40,7 +75,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div key={project.id} className="project-card">
             <div className="project-card__image">
-              <img src={`/images/${project.image}`} alt={project.title} />
+              <img src={project.image} alt={project.title} />
             </div>
             
             <div className="project-card__content">
@@ -72,7 +107,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="project-card__link"
                   >
-                    <FaExternalLinkAlt /> Demo
+                    <FaExternalLinkAlt /> link
                   </a>
                 )}
               </div>

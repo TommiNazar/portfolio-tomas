@@ -19,11 +19,11 @@ const Home = () => {
           <h1 className="home__title">
             Hola, soy <span className="highlight">Tomás Nazar</span>
           </h1>
-          <h2 className="home__subtitle">Desarrollador Full Stack</h2>
+          <h2 className="home__subtitle">Desarrollador Front End</h2>
           <p className="home__description">
-            Especializado en JavaScript moderno, React y Node.js. 
-            Apasionado por crear soluciones digitales eficientes, escalables 
-            y con excelente experiencia de usuario.
+            Programador junior apasionado por crear experiencias web atractivas y funcionales. 
+            Con habilidades sólidas en React y JavaScript, estoy en constante aprendizaje 
+            para expandir mis conocimientos hacia el desarrollo Full Stack.
           </p>
           
           <div className="home__buttons">
