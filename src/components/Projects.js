@@ -6,10 +6,21 @@ import magiaInteractiva from '../assets/magiaInteractiva.png'
 import jure from '../assets/jureArquitectura.png'
 import calculadora from '../assets/calculadora.png'
 import porfolio from '../assets/porfolio.png'
+import magoTommi from '../assets/magoTommi.png'
+import appCryptoInfo from '../assets/appCryptoInfo.png'
 
 const projects = [
   {
     id: 1,
+    title: "CryptoDashboard",
+    description: "Plataforma que muestra el valor y la variacion de precio de las principales 10 criptomonedas mas populares, conectandose a una api especializada",
+    technologies: ["React", "Node.js","python", "Sass"],
+    github: "https://github.com/TommiNazar/crypto-info",
+    demo: "https://crypto-info-coral.vercel.app/",
+    image: appCryptoInfo
+  },
+  {
+    id: 2,
     title: "E-commerce-Diroma",
     description: "Plataforma de comercio electrónico con carrito de compras, con formulario conectado al mail donde le llegan los pedidios realizados por los clientes, con diseño resposive",
     technologies: ["React", "Node.js", "Sass"],
@@ -18,7 +29,7 @@ const projects = [
     image: diroma
   },
   {
-    id: 2,
+    id: 3,
     title: "App-clima-react",
     description: "Aplicación Weather Dashboard, Panel de control meteorológico que muestra pronósticos actuales y futuros con datos de API, con diseño resposive.",
     technologies: ["React", "API"],
@@ -27,7 +38,7 @@ const projects = [
     image: appClima
   },
   {
-    id: 3,
+    id: 4,
     title: "magia-interactiva-js",
     description: "Pagina interactiva que le realiza al usuario trucos de magiaI.",
     technologies: ["JavaScript", "Css", "HTML"],
@@ -37,7 +48,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "jureArquitectura",
     description: "Pagina informativa del estudio de arquitectura Jure, con diseño resposive.",
     technologies: ["HTML", "Css", "Sass", "Bootstrap"],
@@ -46,7 +57,7 @@ const projects = [
     image: jure
   },
   {
-    id: 5,
+    id: 6,
     title: "calculadoraReact",
     description: "Calculadora realizada con React.",
     technologies: ["React", "Css"],
@@ -55,7 +66,7 @@ const projects = [
     image: calculadora
   },
   {
-    id: 6,
+    id: 7,
     title: "este porfolio",
     description: "Porfolio realizado con React y Sass con diseño resposive.",
     technologies: ["React", "Css", "Sass"],
@@ -63,6 +74,26 @@ const projects = [
     demo: "https://portfolio-tomas-nine.vercel.app/",
     image: porfolio
   },
+  {
+    id: 8,
+    title: "mago-tommi",
+    description: "Pagina intitucional del artista 'mago tommi",
+    technologies: ["Html", "Css", "Sass", "Bootstrap"],
+    github: "https://github.com/TommiNazar/mago-tommi",
+    demo: "https://mago-tommi.vercel.app/pag/contacto.html",
+    image: magoTommi
+  },
+  {
+    id: 9,
+    title: "escuela_de_cursos",
+    description: "App de administracion de una escuela de cursos",
+    technologies: ["Python", "Bootstrap", "Django", "SQL"],
+    github: "https://github.com/TommiNazar/escuela_de_cursos",
+    demo: "",
+    
+  },
+
+
 
 ];
 
