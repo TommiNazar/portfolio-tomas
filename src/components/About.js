@@ -12,7 +12,7 @@ const About = () => {
     { name: "Firebase", icon: <SiFirebase />, level: 75 },
     { name: "Arduino", icon: <SiArduino />, level: 80 },
     { name: "Unity", icon: <SiUnity />, level: 70 },
-    { name: "Python", icon: <SiPython />, level: 60 },
+    { name: "Python", icon: <SiPython />, level: 80 },
     { name: "Django", icon: <SiDjango />, level: 60 }
   ];
 
@@ -31,9 +31,9 @@ const About = () => {
           </p>
           
           <p>
-            Como <strong>programador junior especializado en React</strong>, he trabajado en proyectos freelance desarrollando 
+            Como <strong>programador especializado en React</strong>, he trabajado en proyectos freelance desarrollando 
             aplicaciones web responsivas y dinámicas. Mi enfoque autodidacta y mi pasión por la tecnología me han permitido 
-            adquirir habilidades sólidas en el ecosistema JavaScript mientras continúo formándome en Back End.
+            adquirir habilidades sólidas en el ecosistema JavaScript mientras continúo formándome en BackEnd con Python.
           </p>
           
           <p>

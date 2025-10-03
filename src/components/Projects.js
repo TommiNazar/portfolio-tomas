@@ -40,7 +40,7 @@ const projects = [
   {
     id: 4,
     title: "magia-interactiva-js",
-    description: "Pagina interactiva que le realiza al usuario trucos de magiaI.",
+    description: "Pagina interactiva que le realiza al usuario trucos de magia.",
     technologies: ["JavaScript", "Css", "HTML"],
     github: "https://github.com/TommiNazar/magia-interactiva-js",
     demo: "https://magia-interactiva-js.vercel.app/",

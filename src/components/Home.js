@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import imagen from '../assets/profile.jpeg'
+import CV from '../assets/TomasNazarCV.pdf'
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
             <a href="#contact" className="btn btn--primary">
               Contáctame
             </a>
-            <a href="/cv-tomas-nazar.pdf" download className="btn btn--secondary">
+            <a href = {CV} download className="btn btn--secondary">
               <FaFileDownload /> Descargar CV
             </a>
           </div>
