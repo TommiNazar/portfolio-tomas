@@ -47,8 +47,8 @@ const About = () => {
           <p>
             
             Mi formación incluye <strong>Tecnicatura en Mecatronica</strong> en la UTN, ademas realice el bootcamp de 
-            <strong> Desarrollo Full Stack</strong> en Coderhouse y otros cursos, donde adquirí las bases sólidas 
-            que aplico en mis proyectos diarios.
+            <strong> Desarrollo Full Stack</strong> en Coderhouse, cursos de <strong>Herramientas de IA</strong> de BigSchool 
+            y otros cursos, donde adquirí las bases sólidas que aplico en mis proyectos diarios.
           </p>
           
           <h3 className="about__subtitle">Algunas de Mis Habilidades Técnicas</h3>

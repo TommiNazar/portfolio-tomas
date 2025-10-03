@@ -20,7 +20,7 @@ const Home = () => {
           <h1 className="home__title">
             Hola, soy <span className="highlight">Tomás Nazar</span>
           </h1>
-          <h2 className="home__subtitle">Desarrollador Front End</h2>
+          <h2 className="home__subtitle">Desarrollador</h2>
           <p className="home__description">
             Programador apasionado por crear experiencias atractivas y funcionales. 
             Con habilidades sólidas en React, JavaScript y Python. Soy una persona curiosa, 
