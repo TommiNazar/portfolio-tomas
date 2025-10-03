@@ -22,9 +22,11 @@ const Home = () => {
           </h1>
           <h2 className="home__subtitle">Desarrollador Front End</h2>
           <p className="home__description">
-            Programador apasionado por crear experiencias web atractivas y funcionales. 
-            Con habilidades sólidas en React y JavaScript, estoy en constante aprendizaje 
-            para expandir mis conocimientos hacia el desarrollo Full Stack.
+            Programador apasionado por crear experiencias atractivas y funcionales. 
+            Con habilidades sólidas en React, JavaScript y Python. Soy una persona curiosa, 
+            con ganas de crear, conectar ideas y hacer que las cosas pasen. 
+            Estoy en constante aprendizaje 
+            para expandir mis conocimientos y habilidades
           </p>
           
           <div className="home__buttons">

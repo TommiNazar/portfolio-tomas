@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiJavascript1, DiReact, DiHtml5, DiCss3 } from 'react-icons/di';
+import { DiJavascript1, DiReact, DiHtml5, DiCss3, DiCode } from 'react-icons/di';
 import { SiSass, SiPython, SiFirebase, SiArduino, SiUnity, SiDjango } from 'react-icons/si';
 
 const About = () => {
@@ -13,7 +13,8 @@ const About = () => {
     { name: "Arduino", icon: <SiArduino />, level: 80 },
     { name: "Unity", icon: <SiUnity />, level: 70 },
     { name: "Python", icon: <SiPython />, level: 80 },
-    { name: "Django", icon: <SiDjango />, level: 60 }
+    { name: "Django", icon: <SiDjango />, level: 60 },
+    { name: "AI", icon: <DiCode />, level: 85 }
   ];
 
   return (
@@ -23,10 +24,10 @@ const About = () => {
       <div className="about__content">
         <div className="about__text">
           <p>
-            Soy Tomás Nazar, <strong>desarrollador Front End</strong> con experiencia freelance en el rubro tecnológico 
+            Soy Tomás Nazar, <strong>desarrollador</strong> con experiencia freelance en el rubro tecnológico 
             y una trayectoria profesional diversa que incluye desde el mundo corporativo en Nestlé (Distribuidora Córdoba) 
             hasta presentaciones como <strong>mago/ilusionista profesional</strong>. Esta combinación única me ha dotado de 
-            habilidades versátiles: la precisión técnica del desarrollo web, la disciplina del entorno corporativo 
+            habilidades versátiles: la precisión técnica del desarrollo, la disciplina del entorno corporativo 
             y la creatividad escénica.
           </p>
           
@@ -50,7 +51,7 @@ const About = () => {
             que aplico en mis proyectos diarios.
           </p>
           
-          <h3 className="about__subtitle">Mis Habilidades Técnicas</h3>
+          <h3 className="about__subtitle">Algunas de Mis Habilidades Técnicas</h3>
           <div className="skills-container">
             {skills.map((skill, index) => (
               <div key={index} className="skill-item">
